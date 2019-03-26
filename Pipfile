@@ -11,7 +11,7 @@ bs4 = "*"
 oldp-api = {git = "https://github.com/openlegaldata/oldp-sdk-python.git"}
 matplotlib = "*"
 wordcloud = "*"
-spacy = "*"
+spacy = "==2.0.18"
 de_core_news_sm = {file = 'https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.0.0/de_core_news_sm-2.0.0.tar.gz'}
 
 [requires]
