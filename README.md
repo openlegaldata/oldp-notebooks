@@ -28,3 +28,13 @@ $ pipenv install
 ```
 
 Each notebook may have its individual dependencies. Please check the introduction inside the notebooks.
+
+
+## Google Colab
+
+You can also run the Jupyter notebooks directly on Google Colab:
+
+- [Publication Statistics](https://colab.research.google.com/github/openlegaldata/oldp-notebooks/blob/master/notebooks/publication-stats.ipynb)
+
+
+
