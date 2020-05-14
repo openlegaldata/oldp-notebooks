@@ -1,0 +1,7 @@
+smart-open
+pandas
+numpy
+requests
+seaborn
+tqdm
+matplotlib
