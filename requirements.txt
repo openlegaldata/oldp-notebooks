@@ -5,3 +5,5 @@ requests
 seaborn
 tqdm
 matplotlib
+jupyter
+datasets

@@ -26,3 +26,8 @@ def replace_html_special_ents(content):
         unicode = html.unescape(m.group(0))
         content = content[:m.start(0)] + unicode + content[m.end(0):]
     return content
+
+# Remove standalone numbers on their own lines
+def remove_line_numbers(text):
+    # Remove lines that contain only digits (with optional whitespace)
+    return re.sub(r'\n\s*\d+\s*\n', '\n', text)
