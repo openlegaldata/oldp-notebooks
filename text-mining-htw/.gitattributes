@@ -1,0 +1,4 @@
+data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/cleaned/parse_legal_cases.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/*.parquet filter=lfs diff=lfs merge=lfs -text
